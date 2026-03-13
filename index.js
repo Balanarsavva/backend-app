@@ -4,10 +4,6 @@ import session from "express-session";
 import cors from "cors";
 import dotenv from "dotenv";
 import { authenticateAdmin } from "./middleware/auth.js";
-<<<<<<< HEAD
-
-=======
->>>>>>> 14d6eccd677e7f8ef60798f72648bcaa01c12127
 import dbConnect from "./config/db.js";
 import productRouter from "./routes/productRoute.js";
 import storeRouter from "./routes/storeRoute.js";
