@@ -63,8 +63,4 @@ const logout = (req, res) => {
   res.render("auth/login");
 };
 
-<<<<<<< HEAD
 export { login, validateUser, register, registerUser, logout, signup,signin };
-=======
-export { login, validateUser, register, registerUser, logout, signup,signin };
->>>>>>> 14d6eccd677e7f8ef60798f72648bcaa01c12127
